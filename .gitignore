@@ -1,0 +1,15 @@
+# Ignorar el entorno virtual
+venv/
+
+# Ignorar archivos de compilación y configuraciones de IDE
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+
+# Ignorar archivos específicos del sistema operativo
+.DS_Store
+*.swp
