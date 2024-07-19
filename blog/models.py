@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-class Cateory(models.Model):
+class Category(models.Model):
     name = models.CharField(max_length = 30)
 
 class Post(models.Model):
